@@ -1,0 +1,43 @@
+{
+  "name": "HeaderMod",
+  "version": "1.0.0",
+  "manifest_version": 3,
+  "description": "Modify request and response headers per profile, with URL and resource filters, tab lock, pause, and cloud backup.",
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "action": {
+    "default_icon": {
+      "16": "icon_16.png",
+      "48": "icon_48.png",
+      "128": "icon_128.png"
+    },
+    "default_title": "Modify Headers",
+    "default_popup": "popup.html"
+  },
+  "icons": {
+    "16": "icon_16.png",
+    "48": "icon_48.png",
+    "128": "icon_128.png"
+  },
+  "incognito": "spanning",
+  "permissions": [
+    "contextMenus",
+    "storage",
+    "tabs",
+    "declarativeNetRequest"
+  ],
+  "optional_host_permissions": [
+    "<all_urls>"
+  ],
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "headermod@ibaciu6",
+      "strict_min_version": "128.0",
+      "data_collection_permissions": {
+        "required": ["none"],
+        "optional": []
+      }
+    }
+  }
+}

@@ -1,0 +1,264 @@
+html, body {
+  width: 640px;
+  height: 560px;
+  margin: 0;
+  overflow: hidden;
+  background:
+    linear-gradient(180deg, #f8fafc 0%, #eef2f7 100%);
+  color: #0f172a;
+  font-family: "Segoe UI", system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+a {
+  outline: 0;
+  cursor: pointer;
+}
+
+[ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak],
+.ng-cloak, .x-ng-cloak,
+.ng-hide:not(.ng-hide-animate) {
+  display: none !important;
+}
+
+@-moz-document url-prefix() {
+  md-input-container .md-input {
+    border-color: #64748b;
+  }
+
+  md-backdrop, md-backdrop.md-select-backdrop {
+    z-index: 99;
+  }
+
+  .md-select-menu-container {
+    z-index: 100;
+  }
+}
+
+body::-webkit-scrollbar {
+  width: 0 !important;
+}
+
+.disabled {
+  opacity: 0.56;
+  pointer-events: none;
+}
+
+md-toolbar {
+  background: linear-gradient(180deg, #0f172a 0%, #172554 100%);
+  color: #fff;
+}
+
+.md-toolbar-tools {
+  min-height: 52px;
+}
+
+.profile-title {
+  border: 0 !important;
+  color: #fff !important;
+  margin-top: 16px;
+  font-size: 18px;
+  letter-spacing: 0;
+}
+
+.project-banner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 8px 16px 12px;
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.project-title {
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 0;
+}
+
+.project-meta {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 11px;
+  opacity: 0.82;
+  min-width: 0;
+}
+
+.project-url {
+  color: inherit;
+  max-width: 340px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+  white-space: nowrap;
+}
+
+.project-url:hover,
+.project-url:focus {
+  color: #fff;
+}
+
+.project-sep {
+  opacity: 0.5;
+}
+
+.info-section {
+  background: rgba(15, 23, 42, 0.9);
+  color: #fff;
+  text-align: center;
+  padding: 8px 12px;
+  font-size: 12px;
+}
+
+.info-section md-button {
+  margin-left: 8px;
+  min-height: 28px;
+  line-height: 28px;
+}
+
+.main-content {
+  height: 508px;
+  overflow: auto;
+  background: #f8fafc;
+}
+
+.main-content::-webkit-scrollbar {
+  width: 0;
+}
+
+.md-subheader {
+  background: #e2e8f0;
+  color: #334155;
+  position: sticky;
+  top: 0;
+  z-index: 3;
+  border-bottom: 1px solid #cbd5e1;
+}
+
+.md-subheader-inner {
+  padding: 10px 16px 8px;
+}
+
+.md-subheader-content {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0;
+  font-weight: 700;
+}
+
+.name-input {
+  width: 170px;
+}
+
+.value-input {
+  width: 170px;
+}
+
+.comment-input {
+  width: 120px;
+}
+
+.sortorder:after {
+  content: '\25b2';
+}
+
+.sortorder.reverse:after {
+  content: '\25bc';
+}
+
+.section-title {
+  color: #0f172a;
+  font-weight: 700;
+  margin: 16px 18px 8px;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
+
+.header-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  min-height: 44px;
+  padding: 6px 14px;
+  margin: 0 10px 8px;
+  background: #fff;
+  border: 1px solid #dbe2ea;
+  border-radius: 8px;
+  box-shadow: 0 1px 1px rgba(15, 23, 42, 0.04);
+}
+
+.md-button.md-icon-button {
+  width: 28px;
+  min-width: 28px;
+  height: 28px;
+  line-height: 28px;
+  padding: 0;
+  margin: 0;
+}
+
+.remove-button-icon {
+  fill: #dc2626;
+}
+
+.md-sidenav-left md-list-item {
+  min-height: 40px;
+}
+
+.md-sidenav-left .md-sidenav {
+  transition: none !important;
+}
+
+md-menu-item .md-button {
+  line-height: 44px;
+}
+
+md-list-item, md-list-item .md-list-item-inner {
+  min-height: 40px;
+}
+
+md-list-item .md-list-item-inner > md-icon:first-child {
+  margin: 0 10px 0 0;
+}
+
+md-list-item .md-list-item-inner > md-checkbox:first-child {
+  margin-right: 8px;
+}
+
+md-select {
+  display: inline-block;
+  padding: 2px 4px;
+}
+
+md-select.filter-type {
+  width: 140px;
+}
+
+md-autocomplete.comment-autocomplete {
+  min-width: 160px;
+  width: 160px;
+}
+
+md-autocomplete {
+  min-width: 120px;
+}
+
+.enable-checkbox {
+  margin-right: 0;
+}
+
+.header-row md-checkbox {
+  width: 24px;
+}
+
+.header-row md-autocomplete {
+  margin: 0;
+}
+
+.md-button.md-primary {
+  color: #1d4ed8;
+}

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Privacy Policy – HeaderMod</title>
+  <style>
+    body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; max-width: 720px; margin: 40px auto; padding: 0 20px; color: #222; line-height: 1.7; }
+    h1 { font-size: 1.6rem; border-bottom: 1px solid #ddd; padding-bottom: 10px; }
+    h2 { font-size: 1.1rem; margin-top: 2em; }
+    p, li { font-size: 0.97rem; }
+    code { background: #f4f4f4; padding: 1px 4px; border-radius: 3px; }
+    footer { margin-top: 3em; color: #888; font-size: 0.85rem; border-top: 1px solid #eee; padding-top: 10px; }
+  </style>
+</head>
+<body>
+  <h1>Privacy Policy</h1>
+  <p><strong>Extension:</strong> HeaderMod<br>
+     <strong>Last updated:</strong> 2026-07-21</p>
+
+  <h2>Summary</h2>
+  <p>HeaderMod does <strong>not collect, transmit, or share any personal data or browsing data</strong> with the developer or any third party. All configuration stays inside your own browser.</p>
+
+  <h2>Data Stored Locally</h2>
+  <p>Your header profiles and settings (profile names, header rules, URL and resource filters, paused/locked state, and timestamped backup snapshots) are stored using the browser's extension storage:</p>
+  <ul>
+    <li><code>storage.local</code> and <code>storage.sync</code> on your own device.</li>
+    <li>If your browser account sync is enabled, <code>storage.sync</code> data is synced across your own browser profiles by the browser vendor (Google / Mozilla) — it is never sent to the extension developer.</li>
+    <li>This data never leaves your control and is never transmitted to any developer-operated or third-party server.</li>
+  </ul>
+
+  <h2>Header Modification</h2>
+  <p>HeaderMod modifies HTTP request and response headers <strong>only according to the rules you configure</strong>, using the browser's <code>declarativeNetRequest</code> API. The rules are enforced by the browser itself. The extension does not read, log, capture, or transmit the content of the pages you visit or the requests you make.</p>
+
+  <h2>Host Permissions</h2>
+  <p>HeaderMod requests broad host access (<code>&lt;all_urls&gt;</code>) so that the header rules you create can be applied to whichever sites you target. This access is used solely to register your header rules with the browser's request engine. No data from any site is read or sent anywhere.</p>
+
+  <h2>Third-Party Services</h2>
+  <p>None. HeaderMod makes no network requests of its own and uses no analytics, tracking, or advertising services.</p>
+
+  <h2>Security Note</h2>
+  <p>Because header profiles can contain values you enter (such as authorization tokens or cookies), treat exported profile JSON files as sensitive and do not share them.</p>
+
+  <h2>Contact</h2>
+  <p>Questions about this policy? Open an issue on the <a href="https://github.com/ibaciu6/headermod">GitHub repository</a>.</p>
+
+  <footer>
+    &copy; 2026 Ionut Baciu. This privacy policy applies to the HeaderMod Chrome and Firefox extension.
+  </footer>
+</body>
+</html>
