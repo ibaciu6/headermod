@@ -4,7 +4,9 @@ A Chrome, Edge, and Firefox extension that modifies HTTP request and response he
 
 **[Privacy Policy](https://ibaciu6.github.io/headermod/privacy-policy.html)**
 
-> Store listing links (Chrome Web Store / Edge Add-ons / Firefox Add-ons) will be added here once the listings are approved.
+- **[Chrome Web Store](https://chromewebstore.google.com/detail/headermod/bdhjghbopbckkcajjpgmldpnbmnhmcdk)**
+- **[Firefox Add-ons](https://addons.mozilla.org/en-US/firefox/addon/headermod-app/)**
+- Edge Add-ons: submission in progress — link will be added once approved.
 
 ## Features
 
