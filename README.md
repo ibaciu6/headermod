@@ -6,7 +6,7 @@ A Chrome, Edge, and Firefox extension that modifies HTTP request and response he
 
 - **[Chrome Web Store](https://chromewebstore.google.com/detail/headermod/bdhjghbopbckkcajjpgmldpnbmnhmcdk)**
 - **[Firefox Add-ons](https://addons.mozilla.org/en-US/firefox/addon/headermod-app/)**
-- Edge Add-ons: submission in progress — link will be added once approved.
+- **[Microsoft Edge Add-ons](https://microsoftedge.microsoft.com/addons/detail/headermod/bcgbggjjicefpjejompcdmobfeopkfkg)**
 
 ## Features
 
